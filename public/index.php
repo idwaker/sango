@@ -1,18 +1,17 @@
 <?php
 
 /**
- * load autoload file
- *
+ * Application Name
+ * must match to directory name where bootstrap.php file
+ * is located
  */
-require_once __DIR__ . '/../vendor/autoload.php';
-
+define('APP_NAME', 'sango');
 
 /**
- *
- * Create slim application
+ * load bootstrap.php file and obtain app object
  *
  */
-$app = new Slim\App();
+$app = require __DIR__ . '/../' . APP_NAME . '/bootstrap.php';
 
 
 /**
