@@ -1,0 +1,21 @@
+{
+    "name": "idwaker/sango",
+    "type": "library",
+    "description": "Django like structure using Slim Framework",
+    "keywords": ["slim", "framework", "sango"],
+    "homepage": "http://github.com/idwaker/sango",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diwaker Ghimire",
+            "email": "idwaker@gmail.com",
+            "homepage": "http://idwaker.github.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "slim/slim": "dev-develop"
+    }
+}
