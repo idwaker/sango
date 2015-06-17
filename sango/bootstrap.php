@@ -21,6 +21,14 @@ $settings = require __DIR__ . '/settings.php';
 $container = $app->getContainer();
 
 /**
+ * register db
+ */
+$container['db'] = function ($c) use($settings) {
+    return new \Slim\PDO\Database($settings['database']['dsn'],
+        $settings['database']['username'], $settings['database']['password']);
+};
+
+/**
  * Register Twig View helper
  */
 $container->register(new \Slim\Views\Twig(

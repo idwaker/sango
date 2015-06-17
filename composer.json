@@ -14,7 +14,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "slim/twig-view": "^1.1"
+        "slim/twig-view": "^1.1",
+        "slim/pdo": "~1.6"
     },
     "require-dev": {
         "slim/slim": "dev-develop"
