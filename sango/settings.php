@@ -31,7 +31,7 @@ return [
     ],
 
     // routes.php will be appended one after another
-    'installedApps' => [],
+    'INSTALLED_APPS' => [],
 
     // custom settings can just be appended here as requirements
 ];

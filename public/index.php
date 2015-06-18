@@ -6,6 +6,7 @@
  * is located
  */
 define('APP_NAME', 'sango');
+define('APP_DIR', 'apps');
 
 /**
  * load bootstrap.php file and obtain app object

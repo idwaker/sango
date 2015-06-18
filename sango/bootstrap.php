@@ -56,6 +56,13 @@ $container['logger'] = function ($c) {
 /**
  * load all routes here
  */
+if (in_array('INSTALLED_APPS', $settings)) {
+    foreach ($settings['INSTALLED_APPS'] as $app) {
+        require_once __DIR__ . '/' . APP_NAME . '/' . $app . 'routes.php';
+    }
+}
+
+// finally load application route
 require_once __DIR__ . '/routes.php';
 
 /**
