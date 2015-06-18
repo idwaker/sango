@@ -2,7 +2,7 @@
     "name": "idwaker/sango",
     "type": "library",
     "description": "Django like structure using Slim Framework",
-    "keywords": ["slim", "framework", "sango"],
+    "keywords": ["slim-framework", "skeleton", "sango"],
     "homepage": "http://github.com/idwaker/sango",
     "license": "MIT",
     "authors": [
@@ -15,7 +15,8 @@
     "require": {
         "php": ">=5.4.0",
         "slim/twig-view": "^1.1",
-        "slim/pdo": "~1.6"
+        "slim/pdo": "~1.6",
+        "monolog/monolog": "^1.13"
     },
     "require-dev": {
         "slim/slim": "dev-develop"
